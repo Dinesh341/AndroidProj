@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="app_bar_height">300dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="retry_margin_top">15dp</dimen>
+    <dimen name="retry_button_width">150dp</dimen>
+    <dimen name="retry_button_height">65dp</dimen>
+    <dimen name="retry_text_size">18sp</dimen>
+    <dimen name="error_text_size">18sp</dimen>
+    <dimen name="food_poster_size">100dp</dimen>
+    <dimen name="food_details_poster_size">300dp</dimen>
+    <dimen name="food_name_text_margin_left">14dp</dimen>
+    <dimen name="food_name_text_size">20sp</dimen>
+    <dimen name="genre_margin_top">8dp</dimen>
+    <dimen name="genre_text_size">14sp</dimen>
+    <dimen name="cardview_margin">5dp</dimen>
+    <dimen name="cardview_corner_radius">3dp</dimen>
+    <dimen name="food_details_text_size">16sp</dimen>
+</resources>

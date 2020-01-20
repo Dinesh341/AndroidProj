@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="retry">retry</string>
+    <string name="no_internet_connection">No internet connection available, Please try again</string>
+</resources>

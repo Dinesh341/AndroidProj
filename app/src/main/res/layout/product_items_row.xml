@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/food_poster"
+                android:layout_width="@dimen/food_poster_size"
+                android:layout_height="@dimen/food_poster_size"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/food_name_text_margin_left"
+                android:layout_marginLeft="@dimen/food_name_text_margin_left"
+                android:maxLines="3"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/food_name_text_size"
+                app:layout_constraintBottom_toTopOf="@+id/food_txt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/food_poster"
+                app:layout_constraintTop_toTopOf="@+id/food_poster"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/food_txt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/food_name_text_margin_left"
+                android:layout_marginLeft="@dimen/food_name_text_margin_left"
+                android:layout_marginTop="@dimen/genre_margin_top"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:visibility="gone"
+                android:singleLine="true"
+                android:textColor="@color/genreTextColor"
+                android:textSize="@dimen/genre_text_size"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="@+id/food_poster"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toEndOf="@+id/food_poster"
+                app:layout_constraintTop_toBottomOf="@+id/food_poster" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
